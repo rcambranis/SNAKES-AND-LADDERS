@@ -1,0 +1,85 @@
+@font-face {
+    font-family: akzidenz_bold;
+    src: url(../FONTS/akzidenz-grotesk-bq-bold-extended_2808-webfont.woff);
+  }
+  @font-face {
+    font-family: akzidenz_medium;
+    src: url(../FONTS/akzidenz-grotesk-bq-medium-extended_2837-webfont.woff);
+  }
+body{
+    background-color: #68297C;
+    color: #D4E05C;
+    max-width: 100vw;
+}
+nav{
+    background-color: #ED3BA3;
+    font-family: akzidenz_bold;
+    color:#D4E05C !important;
+    font-size: 18px;
+    padding-left: 50px!important;
+    padding-right: 50px!important; 
+}
+h1{
+font-family: akzidenz_bold;
+}
+.navbar-brand{
+  font-size: 35px;
+}
+.color{
+  color:#D4E05C;
+}
+.nav-link{
+  background-color: #C40064;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+.home {
+  font-size: 80px;
+}
+.fondo_home{
+  background-image: url(../IMAGENES/fondo_home.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.texto_2, .texto_3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+.sec_02, .sec_03{
+  height: 50vh;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+
+
+@media (max-width: 576px) 
+{
+.fondo_home{
+    background-image: none;
+    height: 30vh;
+  
+  }
+.navbar-brand{
+  font-size: 18px;
+}
+.sec_02, .sec_03{
+  height: auto;
+}
+.home {
+  font-size: 45px;
+  height: auto;
+}
+.texto_2, .texto_3{
+  font-size: 18px;
+  margin-bottom: 5vh;
+}
+.img_01{
+  max-width: 80vw;
+}
+nav{
+  padding-left: 10px!important;
+  padding-right: 10px!important;
+}
+}
